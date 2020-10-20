@@ -24,6 +24,6 @@ $query = "insert into userinfo (name, email, phone, clg, psw)
 
 mysqli_query($con,$query);
 
-header('location:index.html?s=1');
+header('location:index.html');
 
 ?>
