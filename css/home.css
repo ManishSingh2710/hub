@@ -1,0 +1,139 @@
+ *{
+	margin:0;
+	padding:0;
+	font-family:Century Gothic;
+	box-sizing: border-box;
+}
+body	
+{
+	overflow-x: hidden;
+	background: url(../images/light.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+.navbar a
+{
+	font-family:MV Boli;	
+}
+.nav-item a
+{
+	font-family:Century Gothic;
+}
+.navbar-nav
+{
+	text-transform: uppercase;
+}
+.navbar.transparent.navbar-inverse .navbar-inner 
+{
+    border-width: 0px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: rgba(0,0,0,0.0);
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+}
+.navbar a
+{
+	color:#fff;
+}
+	
+ul li a
+{
+	text-decoration:none;
+	color:#fff;
+	padding:5px 20px;
+	border:1px solid #transparent;
+	transition:0.6s ease;
+}
+ul li a:hover
+{
+	background-color:#fff;
+	color:#000;
+}
+.container1
+{
+	height: 10em;
+    position: absolute;
+    margin: 0;	
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    align-content: center;
+	text-align: center;
+}
+.container1 h1
+{
+	color:#dc3545;
+	font-size: 50px;
+}
+.container1 h4
+{
+	color:#fff;
+}
+.jumbotron h2
+{
+	text-align: center;
+}
+.row
+{
+	align-content: center;
+}
+.col-md-4 img
+{
+	height: 10rem;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+
+
+/* REGISTRATION CSS */
+.nm	
+{
+	width:80%;
+	border:2px solid #aaa;
+	border-radius:4px;
+	margin:5px;
+	margin-left:50px;
+	outline:none;
+	padding:8px;
+	transition:0 0 8px dodgerBlue;
+	
+}
+.nm:focus
+{
+	border-color:dodgerBlue;
+	box-shadow:0 0 8px 0 dodgerBlue;
+}
+.btn {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius:8px;
+}
+.label
+{
+	color: #fff;
+	size: 20rem;
+}
+.lnm 
+{
+  width:80%;
+  border:2px solid #aaa;
+  border-radius:4px;
+  margin:5px;
+  margin-left:50px;
+  outline:none;
+  padding:8px;
+  transition:0 0 8px dodgerBlue; 
+}
